@@ -134,5 +134,6 @@ Sample data row:
 - Check logcat for "kotorinminami" and "DeviceSensorService" tags
 - Monitor Shizuku service status
 ---
-
-> **Note**: This application requires system-level permissions and is intended for research and development purposes. The raw touch event data requires additional parsing for specific use cases.
+# Authentication Model
+A PyTorch implementation of the A2AUTH authentication model for continuous, application-agnostic smartphone user verification.
+It fuses multimodal behavioral features (motion sensors, device attitude, touch/gesture features) and learns a discriminative embedding via a residual MLP with triplet loss and semi-hard negative mining.
