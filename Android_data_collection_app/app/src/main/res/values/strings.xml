@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sensor</string>
+    <string name="start">START RECORD</string>
+    <string name="need_permission">需要安装或激活Shizuku、并授予相应权限</string>
+    <string name="touch_tips">monitor touch event</string>
+    <string name="end">程序结束</string>
+    <string name="stop">stop record</string>
+    <string name="export">EXPORT TO CSV</string>
+    <string name="show">SHOW LOCKSCREEN</string>
+    <string name="hide">HIDE LOCKSCREEN</string>
+</resources>

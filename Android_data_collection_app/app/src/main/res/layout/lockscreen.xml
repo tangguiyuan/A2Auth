@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030">
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/patternLockView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Please draw the unlock pattern"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+    <moe.kotorinminami.sensor.PatternLockView
+        android:id="@+id/patternLockView"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        />
+
+    <TextView
+        android:id="@+id/patternDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/patternLockView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="#A0A0A0"
+        android:textSize="14sp"
+        android:text="Current pattern"/>
+
+    <TextView
+        android:id="@+id/feedbackTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/patternDisplay"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"/>
+
+
+</RelativeLayout>
