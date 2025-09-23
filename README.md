@@ -1,6 +1,7 @@
 # Android Sensor Data Collection Application
 
 **A comprehensive Android app for collecting touch events and sensor data using Shizuku privileges**
+
 <img width="270" height="585" alt="app_run_chart" src="https://github.com/user-attachments/assets/3e63a4db-4ff3-4516-842f-7afee0b9c8a8" />
 
 ## Features
